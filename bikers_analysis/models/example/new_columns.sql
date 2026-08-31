@@ -7,9 +7,12 @@ WITH query AS(
         TO_CHAR(started_at, 'Day') AS day_of_wk_started,
         TO_CHAR(ended_at, 'Day') AS day_of_wk_ended,
         ended_at - started_at AS trip_duration,
-        (ended_at - started_at)::TIME <= '01:00:00' AS is_trip_1hr_or_less
+        (ended_at - started_at) <= '01:00:00' AS is_trip_1hr_or_less
     FROM
         schema.biking_data
+    WHERE
+    -- Filter out invalid trips such as those with negative trip_duration and less than 1 second trips.
+        ended_at - started_at >= '00:01:00.87'
     ORDER BY
         trip_duration DESC
 )
