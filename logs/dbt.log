@@ -74,3 +74,48 @@ Happy modeling!
 [0m18:17:39.475116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223FF7789D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223FF5AD370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223FF88B240>]}
 [0m18:17:39.475589 [debug] [MainThread]: Flushing usage events
 [0m18:17:40.676037 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:30:47.882134 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227FB336660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227FD917ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227FD917B10>]}
+
+
+============================== 21:30:47.893415 | 1179e69e-659c-4afc-a092-3046608549f5 ==============================
+[0m21:30:47.893415 [info ] [MainThread]: Running with dbt=1.12.3
+[0m21:30:47.894124 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Jex\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run --select 8_to_5_trips', 'log_path': 'logs'}
+[0m21:30:47.894631 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Jex\OneDrive\Documents\Job hunt\Google Career Certification\Data Analytics\Course 8 CAPSTONE\Bikers analysis\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:30:47.895562 [debug] [MainThread]: Command `dbt run` failed at 21:30:47.895441 after 0.25 seconds
+[0m21:30:47.895883 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227FD9D9A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227FD9E96D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227FD9E2030>]}
+[0m21:30:47.896217 [debug] [MainThread]: Flushing usage events
+[0m21:30:49.227043 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:24:03.654846 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025BEE0D6660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025BF06ABED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025BF06ABB10>]}
+
+
+============================== 16:24:03.667788 | b59b4f9c-72ed-4435-8dc5-b56355f806d9 ==============================
+[0m16:24:03.667788 [info ] [MainThread]: Running with dbt=1.12.3
+[0m16:24:03.668459 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Jex\\.dbt', 'invocation_command': 'dbt run', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m16:24:03.669277 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Jex\OneDrive\Documents\Job hunt\Google Career Certification\Data Analytics\Course 8 CAPSTONE\Bikers analysis\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:24:03.670270 [debug] [MainThread]: Command `dbt run` failed at 16:24:03.670136 after 0.24 seconds
+[0m16:24:03.670674 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025BF0769A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025BF07796D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025BF076E030>]}
+[0m16:24:03.671080 [debug] [MainThread]: Flushing usage events
+[0m16:24:05.054284 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:25:30.825894 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD9C6A6660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD9EC8BED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD9EC8BB10>]}
+
+
+============================== 11:25:30.838367 | 895eb5fa-34e2-48bb-aef9-5263ab39698a ==============================
+[0m11:25:30.838367 [info ] [MainThread]: Running with dbt=1.12.3
+[0m11:25:30.839074 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Jex\\.dbt', 'invocation_command': 'dbt run', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m11:25:30.839530 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Jex\OneDrive\Documents\Job hunt\Google Career Certification\Data Analytics\Course 8 CAPSTONE\Bikers analysis\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:25:30.840573 [debug] [MainThread]: Command `dbt run` failed at 11:25:30.840442 after 0.19 seconds
+[0m11:25:30.840940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD9ED49A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD9ED596D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD9ED4E030>]}
+[0m11:25:30.841311 [debug] [MainThread]: Flushing usage events
+[0m11:25:32.922352 [debug] [MainThread]: An error was encountered while trying to flush usage events
