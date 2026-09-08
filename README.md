@@ -1,2 +1,2 @@
 # data-analysis
-Data analysis projects
+A data analysis project by Jex
